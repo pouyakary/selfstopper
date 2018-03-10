@@ -12,7 +12,7 @@
     "content_scripts": [
         {
             "matches": [
-                "*://instagram.com/*",
+                "*://www.instagram.com/*",
                 "*://twitter.com/*",
                 "*://dribbble.com/*"
             ],
