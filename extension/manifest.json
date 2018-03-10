@@ -1,18 +1,22 @@
 {
     "manifest_version": 2,
-    "name": "Kary's Ungamify",
+    "name": "Kary's Self Saver",
     "author": "Pouya Kary",
     "incognito": "spanning",
     "version": "0.1",
-    "description": "Remove gamifications and don't get addicted to stuff!",
+    "description": "Filtering things to myself",
     "icons": {
         "48": "icon/icon.png"
     },
 
     "content_scripts": [
         {
-            "matches": ["*://github.com/*"],
-            "js": ["sites/github.com.js"]
+            "matches": [
+                "*://instagram.com/*",
+                "*://twitter.com/*",
+                "*://dribbble.com/*"
+            ],
+            "js": ["block.js"]
         }
     ]
   }
