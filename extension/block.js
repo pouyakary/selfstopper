@@ -22,7 +22,7 @@ document.body.innerHTML = (`
     <div style="padding-top: calc(40vh - 20pt);">
         <center>
             <div style="font-size: 70pt;">🌻</div>
-            <div style="font-family: Futura; font-size: 20pt;">Website Blocked~</div>
+            <div style="font-family: Futura; font-size: 20pt;">Website Blocked</div>
         </center>
     </div>
 `)
