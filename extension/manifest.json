@@ -1,22 +1,24 @@
 {
     "manifest_version": 2,
-    "name": "Kary's Self Saver",
+    "name": "Self Stopper",
     "author": "Pouya Kary",
     "incognito": "spanning",
-    "version": "0.1",
+    "version": "0.5",
     "description": "Filtering things to myself",
     "icons": {
         "48": "icon/icon.png"
     },
-
     "content_scripts": [
         {
             "matches": [
                 "*://www.instagram.com/*",
                 "*://twitter.com/*",
-                "*://dribbble.com/*"
+                "*://dribbble.com/*",
+                "*.//pinterest.com/*"
             ],
-            "js": ["block.js"]
+            "js": [
+                "block.js"
+            ]
         }
     ]
-  }
+}
