@@ -7,15 +7,15 @@ document.body.innerHTML = (`
     <style>
       @media (prefers-color-scheme: light) {
         body {
-          background-color: var(--arc-palette-minContrastColor) !important;
-          color:            var(--arc-palette-maxContrastColor) !important;
+          background-color: var(--arc-palette-minContrastColor, #E2EEFA) !important;
+          color:            var(--arc-palette-maxContrastColor, #3778B7) !important;
         }
       }
 
       @media (prefers-color-scheme: dark) {
         body {
-          background-color: var(--arc-palette-backgroundExtra)      !important;
-          color:            var(--arc-palette-foregroundSecondary)  !important;
+          background-color: var(--arc-palette-backgroundExtra,     #203925)      !important;
+          color:            var(--arc-palette-foregroundSecondary, #7DA76E)  !important;
         }
       }
     </style>
